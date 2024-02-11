@@ -1,0 +1,31 @@
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirm-button {
+  width: 150px;
+  height: 50px;
+  color: "#7D3A4B";
+  border-color: #70131c;
+  padding: 0;
+  background: radial-gradient(circle, #992f33 0%, #831b23 100%);
+  color: #fff;
+}
+
+.reject-button {
+  height: 50px;
+  margin-left: 20px;
+  border-color: #7e3b4c;
+  background: radial-gradient(circle, #a95f70 0%, #d37688 100%);
+  color: #fff;
+}
